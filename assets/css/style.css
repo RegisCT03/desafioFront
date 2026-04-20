@@ -10086,3 +10086,38 @@ select {
   color: #fff;
   background-color: #343a40;
 }
+/*mi css*/
+.custom-logo {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+.bg-page-banner {
+    background-image: url('../images/page-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.custom-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+@media (min-width: 768px) {
+    .custom-grid-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.custom-flex-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+}
